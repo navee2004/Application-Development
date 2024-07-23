@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import "../Assets/css/SignUp.css";
 
 function SignUp() {
@@ -126,7 +126,7 @@ function SignUp() {
                 {error.phoneNumber && <p className="error">{error.phoneNumber}</p>}
 
                 <button type="submit">Sign Up</button>
-
+                <Link to="/Login">Login</Link>
                 {error.form && <p className="error">{error.form}</p>}
             </form>
         </div>
