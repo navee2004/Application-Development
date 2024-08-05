@@ -1,0 +1,44 @@
+/* src/Assets/css/Event.css */
+
+.event-container {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .event-container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .event-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+  }
+  
+  .event-item {
+    flex: 1 0 30%;
+    box-sizing: border-box;
+    margin-bottom: 2rem;
+  }
+  
+  .event-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s;
+  }
+  
+  .event-image:hover {
+    transform: scale(1.05);
+  }
+  
+  .event-name {
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
+    color: #333;
+  }
+  

@@ -1,0 +1,45 @@
+/* src/Assets/css/HallDetail.css */
+.hall-detail-container {
+    display: flex;
+    padding: 15rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 2rem;
+    align-items: center;
+}
+
+.hall-detail-image {
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.hall-detail-info {
+    width: 50%;
+}
+
+.hall-detail-name {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.hall-detail-description {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.book-button {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.book-button:hover {
+    background-color: #0056b3;
+}
